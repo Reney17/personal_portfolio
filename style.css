@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins=wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
-@import url();
+@import url("https://fonts.googleapis.com/css2?family=Roboto:300,400,600");
 
 * {
   margin: 0;
@@ -58,7 +58,7 @@ nav {
   height: 90px;
   line-height: 100px;
   background: var(--nav-color);
-  padding-inline: 10wv;
+  padding-inline: 10vw;
   transition: 0.3s;
   z-index: 100;
 }
@@ -137,7 +137,7 @@ body.dark #sun {
   opacity: 1;
 }
 body.dark #moon {
-  opacity: 1;
+  opacity: 0;
 }
 /*----wrapper ----*/
 
@@ -218,7 +218,7 @@ body.dark #moon {
 .btn i {
   margin-right: 10px;
 }
-.i {
+i {
   font-size: 16px;
 }
 /*-----social icons------*/
@@ -236,7 +236,7 @@ body.dark #moon {
   height: 40px;
   color: var(--icon-color);
   border-radius: 50%;
-  box-shadow: 0px 1px 5px 3px #b749f2;
+  box-shadow: 0px 1px 5px 3px #8749f2;
   cursor: pointer;
 }
 .icon_circle {
@@ -410,7 +410,7 @@ body.dark #moon {
   height: 100%;
   width: 90%;
   border-radius: 6px;
-  background: #b749f2;
+  background: #8749f2;
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
@@ -757,5 +757,23 @@ footer {
     display: flex;
     align-items: center;
     margin-left: 60%;
+  }
+}
+
+@media only screen and(max-width: 540px) {
+  .featured-name {
+    font-size: 40px;
+  }
+  .project-box {
+    width: 100%;
+  }
+  .form-inputs {
+    flex-direction: column;
+  }
+  .input-field {
+    width: 100%;
+  }
+  .mode {
+    margin-left: 50%;
   }
 }
