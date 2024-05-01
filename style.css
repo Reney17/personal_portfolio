@@ -414,26 +414,6 @@ i {
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
-.skill-set.html {
-  animation-delay: 0.1s;
-  width: 100%;
-}
-.skill-set.css {
-  animation-delay: 0.1s;
-  width: 100%;
-}
-.skill-set.python {
-  animation-delay: 0.1s;
-  width: 100%;
-}
-.skill-set.javascript {
-  animation-delay: 0.1s;
-  width: 100%;
-}
-.skill-set.sql {
-  animation-delay: 0.1s;
-  width: 100%;
-}
 .skill-bar.html {
   animation-delay: 0.1s;
   width: 80%;
@@ -454,6 +434,7 @@ i {
   animation-delay: 0.1s;
   width: 50%;
 }
+
 @keyframes progress {
   0% {
     width: 0;
@@ -472,7 +453,7 @@ i {
   color: #fff;
   padding: 2px 6px;
   border-radius: 20px;
-  background: #b749f2;
+  background: #8749f2;
   z-index: 1;
 }
 /*---------Projects---------*/
@@ -664,7 +645,7 @@ footer {
   color: var(--color-white);
 }
 /*-----media query=1024px----*/
-@media only screen and(max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .featured-text {
     padding: 0;
   }
@@ -675,7 +656,7 @@ footer {
   }
 }
 /*-----media query=900px----*/
-@media only screen and(max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .nav-menu-btn {
     display: none;
   }
@@ -760,7 +741,7 @@ footer {
   }
 }
 
-@media only screen and(max-width: 540px) {
+@media only screen and (max-width: 540px) {
   .featured-name {
     font-size: 40px;
   }
