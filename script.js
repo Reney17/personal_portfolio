@@ -16,3 +16,14 @@ toggleSwitch = document.getElementById("toggle-switch");
 toggleSwitch.addEventListener("click", () => {
   body.classList.toggle("dark");
 });
+
+/*---------------Typing Effect------------------*/
+
+var typingEffect = new Typed(".typedText", {
+  strings: ["Designer", "Coder", "Developer"],
+
+  loop: true,
+  typeSpeed: 100,
+  backSpeed: 80,
+  backDelay: 2000,
+});
